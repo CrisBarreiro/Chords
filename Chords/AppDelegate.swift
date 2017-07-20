@@ -43,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func customizeUI() {
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor(hue: 204/360, saturation: 76/100, brightness:86/100, alpha: 1.0)]
+        UITabBar.appearance().tintColor = UIColor(hue: 204/360, saturation: 76/100, brightness:86/100, alpha: 1.0)
     }
     
 }
