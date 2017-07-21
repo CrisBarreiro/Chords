@@ -20,7 +20,175 @@
                     <view key="view" contentMode="scaleToFill" id="X12-B7-uP2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="wJc-dt-cIG">
+                                <rect key="frame" x="0.0" y="372" width="375" height="246"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ifb-kM-I9C">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZf-cF-VFe">
+                                                <rect key="frame" x="0.0" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="DO">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qst-e5-jVv">
+                                                <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="RE">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4as-fh-FGJ">
+                                                <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="REm">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="7ri-cn-9Pr"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="BZl-i5-DJo"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="OWQ-o1-sa7">
+                                        <rect key="frame" x="0.0" y="62" width="375" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPJ-bA-8Ox">
+                                                <rect key="frame" x="0.0" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="MI">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6J-9Z-Fy7">
+                                                <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="MIm">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyT-Wf-kvA">
+                                                <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="FA">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="P4h-VH-UAJ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="tq5-Da-B07"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="1uy-nm-VdW">
+                                        <rect key="frame" x="0.0" y="124" width="375" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mk-Ud-O73">
+                                                <rect key="frame" x="0.0" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="FA#m">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PT2-UY-IRT">
+                                                <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="SOL">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVS-1I-bJS">
+                                                <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="LA">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="H8e-JJ-n9p"/>
+                                            <constraint firstAttribute="height" constant="60" id="ngK-wL-KSy"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="x7K-ER-GLZ">
+                                        <rect key="frame" x="0.0" y="186" width="375" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wkf-CF-blr">
+                                                <rect key="frame" x="0.0" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="LAm">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qY-7J-gXC">
+                                                <rect key="frame" x="125.5" y="0.0" width="124" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="SI">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9O-gQ-OJK">
+                                                <rect key="frame" x="251.5" y="0.0" width="123.5" height="60"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                                <state key="normal" title="SIm">
+                                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="7zQ-dA-K7J"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acorde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl7-rV-JQT">
+                                <rect key="frame" x="0.0" y="342" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CPw-dy-7cm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_piano" translatesAutoresizingMaskIntoConstraints="NO" id="ceV-DR-9RC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="278"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nl7-rV-JQT" firstAttribute="top" secondItem="ceV-DR-9RC" secondAttribute="bottom" id="2Lh-zC-0Uk"/>
+                            <constraint firstItem="Nl7-rV-JQT" firstAttribute="leading" secondItem="X12-B7-uP2" secondAttribute="leading" id="5NU-rK-lcV"/>
+                            <constraint firstItem="ceV-DR-9RC" firstAttribute="top" secondItem="chX-oM-G7I" secondAttribute="bottom" id="5td-Vm-m2b"/>
+                            <constraint firstAttribute="trailing" secondItem="ceV-DR-9RC" secondAttribute="trailing" id="DDP-4g-5B1"/>
+                            <constraint firstAttribute="trailing" secondItem="Nl7-rV-JQT" secondAttribute="trailing" id="HlK-VA-oSf"/>
+                            <constraint firstAttribute="trailing" secondItem="Nl7-rV-JQT" secondAttribute="trailing" id="KoU-cu-0QL"/>
+                            <constraint firstAttribute="trailing" secondItem="wJc-dt-cIG" secondAttribute="trailing" id="LIn-r4-aav"/>
+                            <constraint firstItem="wJc-dt-cIG" firstAttribute="leading" secondItem="X12-B7-uP2" secondAttribute="leading" id="LWc-N8-Q7f"/>
+                            <constraint firstAttribute="trailing" secondItem="wJc-dt-cIG" secondAttribute="trailing" id="Rgv-US-fvF"/>
+                            <constraint firstItem="vBl-UG-rsG" firstAttribute="top" secondItem="wJc-dt-cIG" secondAttribute="bottom" id="Rko-7M-HJn"/>
+                            <constraint firstItem="ceV-DR-9RC" firstAttribute="leading" secondItem="X12-B7-uP2" secondAttribute="leading" id="ZXq-qd-Vp2"/>
+                            <constraint firstItem="vBl-UG-rsG" firstAttribute="top" secondItem="wJc-dt-cIG" secondAttribute="bottom" id="jJH-pm-lhW"/>
+                            <constraint firstItem="wJc-dt-cIG" firstAttribute="top" secondItem="Nl7-rV-JQT" secondAttribute="bottom" id="tyL-Ov-QPW"/>
+                            <constraint firstItem="Nl7-rV-JQT" firstAttribute="leading" secondItem="X12-B7-uP2" secondAttribute="leading" id="uar-pI-fmO"/>
+                            <constraint firstItem="wJc-dt-cIG" firstAttribute="leading" secondItem="X12-B7-uP2" secondAttribute="leading" id="zYk-lv-LGr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Piano" id="XxH-7o-4w8"/>
                 </viewController>
@@ -186,15 +354,22 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_mastil" translatesAutoresizingMaskIntoConstraints="NO" id="PQX-6t-c1c">
+                                <rect key="frame" x="0.0" y="64" width="375" height="278"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="PQX-6t-c1c" firstAttribute="top" secondItem="Gjb-Xi-i9J" secondAttribute="bottom" id="45V-Hk-8ah"/>
                             <constraint firstAttribute="trailing" secondItem="TmA-3k-Rnw" secondAttribute="trailing" id="5CQ-8P-0MT"/>
+                            <constraint firstAttribute="trailing" secondItem="PQX-6t-c1c" secondAttribute="trailing" id="EiV-iu-6Pm"/>
                             <constraint firstItem="TmA-3k-Rnw" firstAttribute="leading" secondItem="xdg-zE-NVa" secondAttribute="leading" id="HMb-Sq-8J4"/>
                             <constraint firstItem="bOe-XW-qHX" firstAttribute="leading" secondItem="xdg-zE-NVa" secondAttribute="leading" id="R1i-cy-Mwl"/>
                             <constraint firstAttribute="trailing" secondItem="bOe-XW-qHX" secondAttribute="trailing" id="VzO-en-aZp"/>
                             <constraint firstItem="RXe-UZ-9Ya" firstAttribute="top" secondItem="TmA-3k-Rnw" secondAttribute="bottom" id="WkD-ZV-TKa"/>
+                            <constraint firstItem="bOe-XW-qHX" firstAttribute="top" secondItem="PQX-6t-c1c" secondAttribute="bottom" id="gGq-BW-SSk"/>
                             <constraint firstItem="TmA-3k-Rnw" firstAttribute="top" secondItem="bOe-XW-qHX" secondAttribute="bottom" id="sUR-Ok-9i9"/>
+                            <constraint firstItem="PQX-6t-c1c" firstAttribute="leading" secondItem="xdg-zE-NVa" secondAttribute="leading" id="uoE-Oz-kYa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Guitarra" id="kaW-ZD-tIs"/>
@@ -261,6 +436,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="img_mastil" width="199" height="278"/>
+        <image name="img_piano" width="285" height="167"/>
         <image name="img_tabbar_guitar_off" width="19" height="25"/>
         <image name="img_tabbar_piano_off" width="21" height="21"/>
     </resources>
